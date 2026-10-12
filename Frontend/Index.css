@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #445;
+}
+
+body .judul {
+  text-align: center;
+  color: whitesmoke;
+}
+
+body .box-luar .box {
+  background-color: whitesmoke;
+  width: 380px;
+  height: 420px;
+  border-radius: 20px;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body .box-luar {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  align-items: center;
+}
+
+#btn-data {
+  padding: 12px 16px;
+  background-color: #333;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-bottom: 30%;
+  margin-right: 15%;
+  transition: 1s;
+}
+
+#btn-data:hover {
+  padding: 14px 18px;
+  background-color: #444;
+}
+
+.dataTampil h1 {
+  text-align: center;
+  margin-bottom: 20%;
+}
